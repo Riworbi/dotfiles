@@ -1,4 +1,7 @@
-Visual studio code configs 
+# `Visual Studio Code configuration`
 
-- keybindings.json  -> my favourite shortcuts
-- settings.json -> my preferences regarding fonts, display, setup
+**keybindings.json**
+: my favourite shortcuts
+
+**settings.json**
+: my preferences regarding fonts, display, setup
