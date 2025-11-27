@@ -18,6 +18,15 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 # install zsh-bat
 git clone https://github.com/fdellwing/zsh-bat.git $ZSH_CUSTOM/plugins/zsh-bat
 
-# copy dotfiles
+# copy dotfiles from repo
 cp .zshrc ~
 cp .p10k.zsh ~ 
+
+source ~/.zshrc
+source ~/.p10k.zsh
+
+# tmux 
+# git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+# cp .tmux.conf ~ 
+# tmux source ~/.tmux.conf
+# Remember to run prefix + I  inside tmux
