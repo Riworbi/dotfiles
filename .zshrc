@@ -77,7 +77,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions zsh-syntax-highlighting zsh-bat)
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting zsh-bat z)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -107,11 +107,19 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
+alias zshconfig="vim ~/.zshrc"
+alias ohmyzsh="vim ~/.oh-my-zsh"
 
 alias color_scheme='for i in {0..255}; do print -Pn "%K{$i}  %k%F{$i}${(l:3::0:)i}%f " ${${(M)$((i%6)):#3}:+$'\n'}; done'
-alias change_java='sudo update-alternatives --config java'
+alias j_v='sudo update-alternatives --config java'
+
+# git aliases
+alias gs='git status'
+alias ga='git add .'
+alias gc='git commit -m' # requires you to type a commit message
+alias gp='git push'
+alias gl='git pull'
+alias gcb='git checkout -b'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
