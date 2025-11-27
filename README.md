@@ -1,2 +1,5 @@
-# dotfiles
-My dotfiles repository 👽
+# `dotfiles 🐕`
+
+- `VSC` 
+- `TERMINAL`
+
