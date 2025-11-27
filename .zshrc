@@ -116,11 +116,11 @@ alias j_v='sudo update-alternatives --config java'
 # git aliases
 alias gs='git status'
 alias ga='git add .'
-alias gc='git commit -m' # requires you to type a commit message
+alias gc='git commit -m' # -m commit message
 alias gp='git push'
 alias gpl='git pull'
 alias gl='git log'
-alias gcb='git checkout -b'
+alias gcb='git checkout -b' # -b branch name
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
