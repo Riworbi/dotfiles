@@ -118,7 +118,8 @@ alias gs='git status'
 alias ga='git add .'
 alias gc='git commit -m' # requires you to type a commit message
 alias gp='git push'
-alias gl='git pull'
+alias gpl='git pull'
+alias gl='git log'
 alias gcb='git checkout -b'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
